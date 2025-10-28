@@ -23,6 +23,11 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
+  color: black;
+  font-weight: 400px;
+  font-size: 18px;
+  font-style: normal;
+  text-underline-offset: 4px;
 }
 
 a {
