@@ -10,22 +10,22 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="content_size_all header">
-      <nav class="main_header_menu">
+    <header class="header">
+      <nav>
         <ul class="main_menu-list">
-          <li class="button_home-li">
-            <a class="button_home" href="">главная</a>
+          <li class="menu_button-active">
+            <a class="menu_button-active" href="">главная</a>
           </li>
-          <li class="button_lotsabout-li">
-            <a class="button_looklots" href="">посмотреть лоты</a>
+          <li>
+            <a href="">посмотреть лоты</a>
           </li>
-          <li class="button_lotsabout-li">
-            <a class="button_aboutauction" href="">об аукционе</a>
+          <li>
+            <a href="">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="main_logo_button" href=""><img src="./images/logo-black.svg" alt="logo"></a>
-      <address class="contact_us contact_us-header">
+      <a class="main_logo_button" href=""><img src="./images/logo-black.svg" alt="кнопка логотип"></a>
+      <address class="contact_us">
         <ul class="contact_us-list">
           <li class="contact_us-item">
             <a class="phone_number_main" href="tel:+99995555555">+9 999 555 5555</a>
@@ -39,55 +39,55 @@
         </ul>
       </address>
     </header>
-    <main class="content_size_all main_content_sections">
-      <section class="content_size_all cover">
+    <main class="main_content_sections">
+      <section class="cover">
         <h1 class="huge_logo">
-          <span class="huge_logo_part1">оно</span>
-          <span class="huge_logo_part2">тебе</span>
-          <span class="huge_logo_part3">надо</span>
+          <span class="huge_logo_up">оно</span>
+          <span class="huge_logo_middle">тебе</span>
+          <span class="huge_logo_bottom">надо</span>
         </h1>
         <div class="cover__description">
-          <p class="cover__description-text">Аукцион вещей, вкоторые никто не верил</p>
-          <button class="bet-button"><p class="bet-button-text">сделать ставку</p></button>
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+          <a class="bet-button"><p class="bet-button-text">сделать ставку</p></a>
         </div>
       </section>
-      <section class="content_size_all lots">
-        <p class="lots-title">Лоты</p>
-        <article class="lots-cards">
-          <a class="lots-card lots-card1" href="">
-            <p class="card-title">
+      <section class="lots">
+        <h2 class="lots-title">Лоты</h2>
+        <ul class="lots-cards">
+          <article class="lots-card lots-card1" href="">
+            <h3 class="card-title">
               Фильм режиссёра, который бросил киношколу
-            </p>
-            <p class="card-description">
+            </h3>
+            <a class="card-description" href="" target="_blank">
               Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-            </p>
-          </a>
-          <a class="lots-card lots-card2" href="">
-            <p class="card-title">
+            </a>
+          </article>
+          <article class="lots-card lots-card2" href="">
+            <h3 class="card-title">
               Книга, где описан один скучный день из жизни рекламного агента
-            </p>
-            <p class="card-description">
+            </h3>
+            <a class="card-description" href="" target="_blank">
               Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
-            </p>
-          </a>
-          <a class="lots-card lots-card3" href="">
-            <p class="card-title">
+            </a>
+          </article>
+          <article class="lots-card lots-card3" href="">
+            <h3 class="card-title">
               Картина, которую повторит даже 5-летний сын маминой подруги
-            </p>
-            <p class="card-description">
+            </h3>
+            <a class="card-description" href="" target="_blank">
               Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
-            </p>
-          </a>
-        </article>
+            </a>
+          </article>
+        </ul>
         <a class="lots-button" href="">посмотреть больше</a>
       </section>
-      <section class="content_size_all about">
+      <section class="about">
         <div class="about__logo">
-          <img class="about__logo-image" src="./images/logo-white.svg" alt="logo2">
+          <img class="about__logo-image" src="./images/logo-white.svg" alt="логотип">
         </div>
-        <p class="about_text-title">Об аукционе</p>
+        <h2 class="about_text-title">Об аукционе</h2>
         <div class="about_text">
-          <p class="about_text-description about_text-description1">
+          <p class="about_text-description">
             Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
           </p>
           <p class="about_text-description">
@@ -97,7 +97,7 @@
         </div>
       </section>
     </main>
-    <footer class="content_size_all footer">
+    <footer class="footer">
       <address class="contact_us-footer">
         <ul class="contact_us-list">
           <li class="contact_us-item">
@@ -111,30 +111,30 @@
           </li>
         </ul>
       </address>
-      <nav class="main_header_menu-footer">
+      <nav class="main_menu-list-footer">
         <ul>
-          <li class="buttons_footer-li">
-            <a class="button_home" href="">главная</a>
+          <li class="menu_button menu_button-active">
+            <a class="menu_button-active" href="">главная</a>
           </li>
-          <li class="buttons_footer-li">
-            <a class="button_looklots" href="">посмотреть лоты</a>
+          <li class="menu_button">
+            <a href="">посмотреть лоты</a>
           </li>
-          <li class="buttons_footer-li">
-            <a class="button_aboutauction" href="">об аукционе</a>
+          <li class="menu_button">
+            <a href="">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <nav class="footer-social-links">
-        <a class="youtube" href="">
-          <img class="social-links-button" src="./images/yt.svg" alt="youtube">
+      <ul class="footer-social-links">
+        <a class="youtube" href="" target="_blank">
+          <img class="social-links-button" src="./images/yt.svg" alt="ютуб">
         </a>
-        <a class="vkontakte" href="">
-          <img class="social-links-button" src="./images/vk.svg" alt="vkontakte">
+        <a class="vkontakte" href="" target="_blank">
+          <img class="social-links-button" src="./images/vk.svg" alt="вконтакте">
         </a>
-        <a href="">
-          <img class="social-links-button" src="./images/pinterest.svg" alt="pinterest">
+        <a href="" target="_blank">
+          <img class="social-links-button" src="./images/pinterest.svg" alt="пинтерест">
         </a>
-      </nav>
+      </ul>
     </footer>
   </body>
 </html>
